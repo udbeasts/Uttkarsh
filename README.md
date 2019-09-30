@@ -12,9 +12,9 @@ while(a<=3200):
  #2)programme to create a factorial of a given no.
 
 a=int(input("Enter a number to obtain factorial:"))
-fact=1
+f=1
 while(a!=0):
-    fact=fact*a
+    f=f*a
     a-=1
      
 print("Factorial of given number:",fact)     
@@ -29,14 +29,14 @@ while(n<=a):
     
 #4)programme to print reverse of a number
 
-num=int(input("Enter the number:"))
-num2=0
+n=int(input("Enter the number:"))
+n2=0
 r=0
-while(num>0):
-    r=num%10
-    num2=(num2*10)+r
-    num=int(num/10)
-print("Reversed number is",num2)       
+while(n>0):
+    r=n%10
+    n2=(n2*10)+r
+    n=int(n/10)
+print("Reversed number is",n2)       
 
 '''
 #5)programme ton determine sum of n numbers whike n is entered  by the user
