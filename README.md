@@ -2,7 +2,7 @@
 phython progress on 23 sept
 
 #1)programme to all numbers between 2000 and 3200 which are divisible by 5 but are not multple of 5
-print("programme to all numbers between 2000 and 3200 which are divisible by 5 but are not multple of 5"
+
 a=2000
 while(a<=3200):
     if(a%7==0 and a%5!=0):
@@ -11,7 +11,6 @@ while(a<=3200):
     
  #2)programme to create a factorial of a given no.
 
-print("programme to create a factorial of a given no.")
 a=int(input("Enter a number to obtain factorial:"))
 fact=1
 while(a!=0):
@@ -21,7 +20,7 @@ while(a!=0):
 print("Factorial of given number:",fact)     
      
 #3)programme to print i,i*i with a given integral number
-print("programme to print i,i*i with a given integral number")
+
 a=int(input("Enter a number:"))
 n=1
 while(n<=a):
@@ -29,7 +28,7 @@ while(n<=a):
     n+=1
     
 #4)programme to print reverse of a number
-print("programme to print reverse of a number")
+
 num=int(input("Enter the number:"))
 num2=0
 r=0
@@ -41,7 +40,7 @@ print("Reversed number is",num2)
 
 '''
 #5)programme ton determine sum of n numbers whike n is entered  by the user
-print("programme ton determine sum of n numbers whike n is entered  by the user")
+
 a=int(input("Enter a number:"))
 n=0
 k=0
