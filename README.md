@@ -1,7 +1,7 @@
 # Uttkarsh
 phython progress on 23 sept
 
-#1)programme to all numbers between 2000 and 3200 which are divisible by 5 but are not multple of 5
+#1)programme to print all numbers between 2000 and 3200 which are divisible by 5 but are not multiple of 5
 
 a=2000
 while(a<=3200):
