@@ -17,7 +17,7 @@ while(a!=0):
     f=f*a
     a-=1
      
-print("Factorial of given number:",fact)     
+print("Factorial of given number:",f)     
      
 #3)programme to print i,i*i with a given integral number
 
